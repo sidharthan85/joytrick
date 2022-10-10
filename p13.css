@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    display: flex;
+    height: 15vh;
+}
+.logo img{
+    height: 13vh;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    margin-left: 40%;
+    text-indent: 65px;
+    font-weight: bold;
+}
+.nav-links :hover{
+     color: #ff3527;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px 0;
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.col-1 h2{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.col-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.col-1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0px;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img{
+    width: 30px;
+    display: none;
+}
+button:hover img{
+     display: block;
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    position: absolute;
+    background: linear-gradient(#ff469f, #ff6062);
+    left: -40px;
+    top: 8px;
+}
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.col-2 .controller{
+    width: 80%;
+    margin-top: 70px;
+
+}
+.color-box{
+    position: absolute;
+    right: 0%;
+    top: 30px;
+    background: linear-gradient(#ff469f, #ff6062);
+    border-radius: 20px 0 0 20px;
+    height: 90%;
+    width: 60%;
+    z-index: -1;
+}
+.add-btn img{
+      width: 25px;
+      color: #fff;
+}
+.add-btn{
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.socials{ 
+    text-align: center;
+    margin-top: 50px;
+    text-indent: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+.socials :hover{
+    color: #ff3527;
+}
